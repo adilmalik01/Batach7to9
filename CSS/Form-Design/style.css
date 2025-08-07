@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #d435c9;
+    background: linear-gradient(90deg, rgba(212, 53, 201, 1) 0%, rgba(83, 121, 237, 0.96) 100%);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signin-div {
+    width: 380px;
+    height: 500px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.header {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn-div {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.header a {
+    border: 1px solid rgb(116, 116, 116);
+    width: 120px;
+    height: 40px;
+    text-decoration: none;
+    color: black;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-div :nth-child(1) {
+    background: linear-gradient(90deg, rgba(212, 53, 201, 1) 0%, rgba(83, 121, 237, 0.96) 100%);
+    color: white;
+}
+
+
+
+
+
+form {
+    width: 100%;
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+
+}
+
+form input {
+    width: 70%;
+    height: 50px;
+    border: 1px solid rgb(100, 98, 98);
+    border-radius: 4px;
+    padding: 0 5px;
+    outline: none;
+}
+
+form input::placeholder{
+    font-size: 19px;
+    opacity: 0.4;
+}
+
+form button {
+    width: 73%;
+    height: 50px;
+    background: linear-gradient(90deg, rgba(212, 53, 201, 1) 0%, rgba(83, 121, 237, 0.96) 100%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 20px;
+
+}
+
+
+.form-footer {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-footer a{
+    text-decoration: none;
+    color: blue;
+}
